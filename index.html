@@ -1,10 +1,46 @@
 <!doctype html>
 <html>
 <head>
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
   <title>Cooking conversion</title>
 </head>
 <body>
-  <h1>Gallon to liter conversion</h1>
-  <script src="js/scripts.js"></script>
+  <div class="container">
+    <div>
+      <form id="form1">
+        <div class="form-group">
+        <label for="gal2lit">Gallon to liter conversion</label>
+        <input id="gal2lit" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn btn-success">Convert!</button>
+      </form>
+      <div id="output1">
+        
+      </div>
+      <form id="form2">
+        <div class="form-group">
+        <label for="ounces2cups">Ounces to Cups</label>
+        <input id="ounces2cups" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn btn-success">Convert!</button>
+      </form>
+      <div id="output2">
+      </div>
+      <form id="form3">
+        <div class="form-group">
+        <label for="cups2liters">Cups to Liters</label>
+        <input id="cups2liters" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn btn-success">Convert!</button>
+      </form>
+      <div id="output3">
+      </div>
+    </div>
+
+  </div>
+
 </body>
 </html>
